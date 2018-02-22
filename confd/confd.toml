@@ -1,0 +1,8 @@
+backend = "consul"
+confdir  = "/workspace/docker-workspace/confd/docker/confd"
+interval = 5
+prefix   = "/"
+noop = false
+log-level = "debug"
+scheme = "http"
+nodes= ["127.0.0.1:8500"]

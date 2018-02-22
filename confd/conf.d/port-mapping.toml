@@ -1,0 +1,8 @@
+[template]
+src = "port-mapping.conf.tmpl"
+dest = "/etc/nginx/nginx.conf"
+keys = [
+  "/endpoint",
+  "/"
+]
+reload_cmd = "echo path"
